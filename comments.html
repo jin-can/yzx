@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Exchange</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <style>
+    .content_rigth img {
+      width: 100%;
+      height: 220px;
+      margin: 20px 0;
+    }
+
+    .comments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .comments div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      width: 500px;
+      margin: 10px 0;
+    }
+
+    .input_text {
+      width: 350px;
+      height: 30px;
+
+    }
+
+    .input_radio {
+      margin-left: 10px;
+    }
+
+    .input_checkbox {
+      margin-left: 10px;
+    }
+
+    .comments p {
+      width: 180px;
+    }
+
+    .liuyan {
+      width: 350px;
+      height: 100px;
+    }
+
+    .button {
+      background-color: #f8a5c2;
+      padding: 3px 8px;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1></h1>
+    <nav>
+      <ul>
+        <li> <a href="./index.html">Home Page</a></li>
+        <li> <a href="./life.html">Lifestyle Hobbies</a></li>
+        <li> <a href="./home.html">My Hometown</a></li>
+        <li> <a href="./photo.html">My Photos</a></li>
+        <li> <a class="active" href="./comments.html">Message Exchange</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- banner -->
+  <img class="banner" src="./img/banner4.jpg" alt="">
+  <!-- 主内容 -->
+  <div class="main">
+    <div class="content_left">
+      <div class="user">
+        <p class="title">About Me</p>
+        <img src="./img/user.jpg" alt="">
+        <div>
+          <p><b>Full Name：</b>Yang Zixuan</p>
+          <p><b>Gender：</b>girl</p>
+          <p><b>Birthday： </b>November 28th </p>
+          <p><b>Speciality：</b>business administration </p>
+          <p><b>Interest：</b>Eating and exploring restaurants</p>
+          <p><b>School：</b>Macau University of Science and Technology</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="content_rigth">
+      <p class="title">Message Exchange</p>
+      <img src="./img/ly.jpg">
+      <div class="comments">
+        <div>
+          <p>Full Name：</p>
+          <input placeholder="Please enter your name" class="input_text" type="text">
+        </div>
+        <div>
+          <p>Mobile Phone：</p>
+          <input placeholder="Please enter the number" class="input_text" type="text">
+        </div>
+        <div>
+          <p>Gender：</p>
+          <input type="radio" name="sex" value="male">girl
+          <input class="input_radio" type="radio" name="sex" value="female">boy
+        </div>
+        <div>
+          <p>Hobby：</p>
+          <input type="checkbox" name="vehicle" value="Bike">cook
+          <input class="input_checkbox" type="checkbox" name="vehicle" value="Car">photograph
+          <input class="input_checkbox" type="checkbox" name="vehicle" value="Bike">motion
+          <input class="input_checkbox" type="checkbox" name="vehicle" value="Car">music
+        </div>
+        <div>
+          <p>Leave A Message：</p>
+          <input class="liuyan" type="text">
+        </div>
+        <p class="button">
+          Confirm submission
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    Copyright
+  </footer>
+</body>
+
+</html>

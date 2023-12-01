@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Photos</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <style>
+    .album_images {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .album_images img {
+      width: 32%;
+      height: 300px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1></h1>
+    <nav>
+      <ul>
+        <li> <a href="./index.html">Home Page</a></li>
+        <li> <a href="./life.html">Lifestyle Hobbies</a></li>
+        <li> <a href="./home.html">My Hometown</a></li>
+        <li> <a class="active" href="./photo.html">My Photos</a></li>
+        <li> <a href="./comments.html">Message Exchange</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- banner -->
+  <img class="banner" src="./img/banner3.jpg" alt="">
+  <!-- 主内容 -->
+  <div class="main">
+    <div class="content_left">
+      <div class="user">
+        <p class="title">About Me</p>
+        <img src="./img/user.jpg" alt="">
+        <div>
+          <p><b>Full Name：</b>Yang Zixuan</p>
+          <p><b>Gender：</b>girl</p>
+          <p><b>Birthday： </b>November 28th </p>
+          <p><b>Speciality：</b>business administration </p>
+          <p><b>Interest：</b>Eating and exploring restaurants</p>
+          <p><b>School：</b>Macau University of Science and Technology</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="content_rigth">
+      <p class="title">My Photos</p>
+      <div class="album_images">
+        <img src="./img/photo/33.jpg">
+        <img src="./img/photo/34.jpg">
+        <img src="./img/photo/35.jpg">
+        <img src="./img/photo/36.jpg">
+        <img src="./img/photo/37.jpg">
+        <img src="./img/photo/38.jpg">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    Copyright
+  </footer>
+</body>
+
+</html>
